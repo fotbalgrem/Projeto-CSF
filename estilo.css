@@ -1,0 +1,690 @@
+body{
+    background-color: black;
+    font-family: cursive;
+}
+
+.introducao{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(249, 166, 0);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    padding: 14px 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover{
+    background-color: rgb(249, 166, 0);
+}
+
+a.buttonlink{
+    background-color: black;
+    color: rgb(1, 172, 1);
+    border: 3px solid green;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 92px;
+    border-radius: 25px;
+    top: 10px;
+}
+
+a:hover{
+    background-color: green;
+    color: white;
+}
+
+div.filmescoluna01{
+    padding: 20px;
+    padding-left: 75px;
+    display:flex;
+    justify-content: space-around;
+    width: 1800px;
+    height: 332px;
+}
+
+div.filmescoluna02{
+    padding: 60px;
+    display: flex;
+    padding-left: 75px;
+    justify-content: space-around;
+    width: 1800px;
+    height: 332px;
+}
+
+p.textodocontato{
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+    color: aliceblue;
+}
+
+p.contatointroducao{
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+}
+
+p.telefonecontato{
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+div.selecao01{
+    padding: 0px;
+    padding-left: 20px;
+    display:flex;
+    justify-content: space-around;
+    width: 1800px;
+    height: 332px;
+    padding-bottom: 20px;
+}
+
+div.selecao02{
+    padding: 0px;
+    padding-left: 380px;
+    width: 0px;
+    height: 332px;
+    padding-bottom: 20px;
+}
+
+h1{
+    color: rgb(249, 166, 0);
+    font-size: 22px;
+    padding: 27px;
+    padding-left: 460px;
+}
+
+div.video{
+    max-width: 0%;
+    height: auto;
+    padding-left: 700px;
+    position: absolute;
+    top: 130px;
+}
+
+p.genero01{
+    color: rgb(249, 166, 0);
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    position: absolute;
+    border: 3px solid rgb(249, 166, 0);
+    border-radius: 30px;
+}
+
+
+p.genero02{
+    color: rgb(249, 166, 0);
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    position: absolute;
+    padding-left: 5px;
+    border: 3px solid rgb(249, 166, 0);
+    border-radius: 30px;
+    margin-top: 0px;
+    left: 770px;    
+}
+
+p.genero022{
+    color: rgb(249, 166, 0);
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    position: relative;
+    padding-left: 5px;
+    border: 3px solid rgb(249, 166, 0);
+    border-radius: 30px;
+    margin-top: 0px;
+    left: 87px;    
+}
+
+
+p.genero03{
+    color: rgb(249, 166, 0);
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    position: absolute;
+    padding-left: 5px;
+    border: 3px solid rgb(249, 166, 0);
+    border-radius: 30px;
+    margin-top: 0px;
+    left: 845px;    
+}
+
+h2{
+    color: rgb(249, 166, 0);
+    font-size: 22px;
+    padding: 0px;
+    padding-left: 400px;
+    position: absolute;
+    right: 500px;
+    top: 80px;
+    font-weight: bold;
+    left: 370px;
+}
+
+p.descricaodefilmes{
+    color: rgb(249, 166, 0);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    margin-top: 100px;
+}
+
+p.infodofilme{
+    color: rgb(249, 166, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 50px;
+}
+
+p.sinopse{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+div.restodainfopt1{
+    color: rgb(249, 166, 0);
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 70px;
+    padding: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.restodainfopt2{
+    font-size: 20px;
+    color:aliceblue;
+    font-weight: bold;
+    padding: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+p.diretor{
+    position: relative;
+    left: -20px;
+}
+
+p.orcamento{
+    position: relative;
+    left: -25px;
+}
+
+p.equipetecnica{
+    position: relative;
+    left: 20px;
+}
+
+p.baseadoem{
+    position: relative;
+    left: 60px;
+}
+
+p.producao{
+    position: relative;
+    left: -30px;
+}
+
+p.class18{
+    position: relative;
+    left: -300px;
+}
+
+img.imagemhalloween{
+    position: relative;
+    left: -55px;
+}
+
+p.semtrailer{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 130px;
+    padding: 0;
+    padding-left: 250px;
+    display: flex;
+    text-align: center;
+}
+
+p.generogod01{
+    color: rgb(249, 166, 0);
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    position: absolute;
+    border: 3px solid rgb(249, 166, 0);
+    border-radius: 30px;
+    margin-top: 55px;
+    left: 700px;
+}
+
+p.generogod02{
+    color: rgb(249, 166, 0);
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    position: absolute;
+    border: 3px solid rgb(249, 166, 0);
+    border-radius: 30px;
+    margin-top: 55px;
+    left: 755px;
+    width: 130px;
+}
+
+p.orcamentoalternative01{
+    position: relative;
+    left: -70px;
+}
+
+p.equipetecnicaalternative02{
+    position: relative;
+    left: -45px;
+}
+
+p.baseadoemalternative03{
+    position: relative;
+    left: -40px;
+}
+
+p.producaoalternative04{
+    position: relative;
+    left: -70px;
+}
+
+img.godlogo14{
+    position: relative;
+    left: -35px;
+}
+
+h1.h1alternative01{
+    position: relative;
+    left: -65px;
+}
+
+h2.h2alternative02{
+    left: 400px;
+    padding: px;
+}
+
+p.generoalt01{
+    color: rgb(249, 166, 0);
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    position: absolute;
+    border: 3px solid rgb(249, 166, 0);
+    border-radius: 30px;
+    margin-top: 0px;
+    left: 700px;
+}
+
+p.generoalt02{
+    color: rgb(249, 166, 0);
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    position: absolute;
+    border: 3px solid rgb(249, 166, 0);
+    border-radius: 30px;
+    margin-top: 0px;
+    left: 755px;
+}
+
+p.generoalt03{
+    color: rgb(249, 166, 0);
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    position: absolute;
+    border: 3px solid rgb(249, 166, 0);
+    border-radius: 30px;
+    margin-top: 0px;
+    left: 838px;
+    width: 130px;
+}
+
+p.orcamentoalt22{
+    position: relative;
+    left: -50px;
+}
+
+p.equipetecnicaalt33{
+    position: relative;
+    left: -45px;
+}
+
+p.baseadoemalt44{
+    position: relative;
+    left: -45px;
+}
+
+p.producaoalt55{
+    position: relative;
+    left: -45px;
+}
+
+img.guardioesdagalaxiavol3{
+    position: relative;
+    left: -22px;
+}
+
+p.orcamentoalt222{
+    position: relative;
+    left: 15px;
+}
+
+p.baseadoemalt444{
+    position: relative;
+    left: -85px;
+}
+
+img.jhonwick4{
+    position: relative;
+    left: -50px;
+}
+
+p.baseadoemalt4444{
+    position: relative;
+    left: 30px;
+}
+
+p.equipetecnica2020{
+    position: relative;
+    left: -20px;
+}
+
+img.logolivre02{
+    position: relative;
+    left: -30px;
+}
+
+p.producao02{
+    position: relative;
+    left: 0%;
+}
+
+p.baseadoem02{
+    position: relative;
+    left: 1%;
+}
+
+p.baseadoem033{
+    position: relative;
+    left: -2%;
+}
+
+p.equipetecnica033{
+    position: relative;
+    left: -2%;
+}
+
+p.orcamento033{
+    position: relative;
+    left: -1%;
+}
+
+p.producao0222{
+    position: relative;
+    left: -2%;
+}
+
+p.baseadoem0222{
+    position: relative;
+    left: -1%;
+}
+
+p.equipetecnica0222{
+    position: relative;
+    left: -2%;
+}
+
+p.genero0333{
+    color: rgb(249, 166, 0);
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    position: absolute;
+    border: 3px solid rgb(249, 166, 0);
+    border-radius: 30px;
+    margin-top: 0px;
+    left: 870px;
+}
+
+p.diretor02222{
+    position: relative;
+    left: -3%;
+}
+
+p.orcamento02222{
+    position: relative;
+    left: -7%;
+}
+
+p.equipetecnica02222{
+    position: relative;
+    left: -6%;
+}
+
+p.baseadoem02222{
+    position: relative;
+    left: -4%;
+}
+
+p.producao02222{
+    position: relative;
+    left: -4%;
+}
+
+img.logo122{
+    position: relative;
+    left: -35px;
+}
+
+img.logo1222{
+    position: relative;
+    left: -30px;
+}
+
+img.logolivre0222{
+    position: relative;
+    left: -25px;
+}
+
+p.baseadoem0333{
+    position: relative;
+    left: -2%;
+}
+
+p.equipetecnica0333{
+    position: relative;
+    left: -45px;
+}
+
+p.orcamento0333{
+    position: relative;
+    left: -6%;
+}
+
+img.logo12222{
+    position: relative;
+    left: -3%;
+}
+
+h1.indianajonestitulo{
+    position: relative;
+    left: -30px;
+    margin-top: -15px;
+}
+
+p.orcamentoalt22222{
+    position: relative;
+    left: -20px;
+}
+
+h1.homemformigatitulo{
+    position: relative;
+    left: -40px;
+    margin-top: -15px;
+}
+
+h1.transformerstitulo{
+    position: relative;
+    left: -45px;
+    margin-top: -15px;
+}
+
+h1.fugadasgalinhastitulo{
+    position: relative;
+    left: -30px;
+}
+
+h1.dungeonstitulo{
+    position: relative;
+    left: -55px;
+}
+
+p.orcamento0333333{
+    position: relative;
+    left: -70px;
+}
+
+h1.shazamtitulo{
+    position: relative;
+    left: -55px;
+}
+
+p.orcamento12{
+    position: relative;
+    left: -85px;
+}
+
+p.equipetecnica123{
+    position: relative;
+    left: -60px;
+}
+
+p.baseadoem1234{
+    position: relative;
+    left: -30px;
+}
+
+p.producao12345{
+    position: relative;
+    left: -50px;
+}
+
+h1.velozestitulo{
+    position: relative;
+    left: -30px;
+}
+
+p.equipetecnica123456{
+    position: relative;
+    left: -30px;
+}
+
+img.logo1234567{
+    position: relative;
+    left: -40px;
+}
